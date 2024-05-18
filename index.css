@@ -24,13 +24,24 @@ body{
     background:#D7DBDD;
     width:40rem;
     margin-left:20rem;
+    border-radius:5px;
+    display:flex;
 }
 
+.question1{
+    margin-left:12rem;
+}
 .second{
     background:#D7DBDD;
     width:40rem;
     margin-left:20rem;
     margin-top:20px;
+    border-radius:5px;
+    display:flex;
+}
+
+.question2{
+    margin-left:12rem;
 }
 
 .third{
@@ -38,4 +49,17 @@ body{
     width:40rem;
     margin-left:20rem;
     margin-top:20px;
+    border-radius:5px;
+    display:flex;
+}
+
+.question3{
+    margin-left:12rem;
+}
+.btn{
+    /* position:fixed; */
+    position:fixed;
+    right:20rem;
+    padding:2px;
+    margin-top:10px;
 }

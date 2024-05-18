@@ -1,7 +1,41 @@
 :root{
-    --body-color:#F5B041;
+    --body-color:#FBFCFC;
 }
 
 body{
     background:var(--body-color);
+}
+
+.main-container{
+    text-align:center;
+    margin-top:8rem;
+}
+
+.title{
+    font-size:20px;
+}
+
+.content{
+    margin-top:5rem;
+    display:grid;
+}
+
+.first{
+    background:#D7DBDD;
+    width:40rem;
+    margin-left:20rem;
+}
+
+.second{
+    background:#D7DBDD;
+    width:40rem;
+    margin-left:20rem;
+    margin-top:20px;
+}
+
+.third{
+    background:#D7DBDD;
+    width:40rem;
+    margin-left:20rem;
+    margin-top:20px;
 }

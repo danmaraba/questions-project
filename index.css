@@ -69,3 +69,25 @@ body{
     cursor:pointer;
     border-color:#3498DB;
 }
+
+.answer1{
+    display:none;
+}
+
+.answer2{
+    display:none;
+}
+
+.answer3{
+    display:none;
+}
+
+@media(max-width:885px){
+    .content{
+        margin-left:-10rem;
+    }
+    .btn{
+        position:fixed;
+        right:6rem;
+    }
+}

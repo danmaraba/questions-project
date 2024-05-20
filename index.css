@@ -149,5 +149,7 @@ body{
     }
 }
 @media(min-width:880px){
-    
+    .content{
+        margin-left:20rem;
+    }
 }

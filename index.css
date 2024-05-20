@@ -70,6 +70,16 @@ body{
     /* border-bottom:1px solid; */
 }
 
+.question1::after {
+    content: "";
+    position: absolute;
+    left: 50%;
+    bottom: 0;
+    width: 30%; /* Adjust this to control the "length" of the bottom border */
+    border-bottom: 1px solid grey;
+    transform: translateX(-50%);
+  }
+
 .third{
     background:#D7DBDD;
     width:40rem;
@@ -86,6 +96,17 @@ body{
     padding-bottom:2rem;
     position:relative;
 }
+
+.question1::after {
+    content: "";
+    position: absolute;
+    left: 50%;
+    bottom: 0;
+    width: 30%; /* Adjust this to control the "length" of the bottom border */
+    border-bottom: 1px solid grey;
+    transform: translateX(-50%);
+  }
+  
 .btn{
    position:relative;
    left:20rem;

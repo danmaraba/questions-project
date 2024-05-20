@@ -133,8 +133,17 @@ body{
     .content{
         margin-left:-10rem;
     }
-    .btn{
-        /* position:fixed; */
-        /* right:6rem; */
+}
+
+@media(max-width:430px){
+    .title{
+        margin-left:5rem;
+    }
+    .content{
+        margin-left:-25rem;
+        /* width:20%; */
+    }
+    body{
+        
     }
 }

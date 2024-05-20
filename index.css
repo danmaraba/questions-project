@@ -47,7 +47,7 @@ body{
     position: absolute;
     left: 50%;
     bottom: 0;
-    width: 30%; /* Adjust this to control the "length" of the bottom border */
+    width: 50%; /* Adjust this to control the "length" of the bottom border */
     border-bottom: 1px solid grey;
     transform: translateX(-50%);
   }
@@ -70,12 +70,12 @@ body{
     /* border-bottom:1px solid; */
 }
 
-.question1::after {
+.question2::after {
     content: "";
     position: absolute;
     left: 50%;
     bottom: 0;
-    width: 30%; /* Adjust this to control the "length" of the bottom border */
+    width: 50%; /* Adjust this to control the "length" of the bottom border */
     border-bottom: 1px solid grey;
     transform: translateX(-50%);
   }
@@ -97,16 +97,16 @@ body{
     position:relative;
 }
 
-.question1::after {
+.question3::after {
     content: "";
     position: absolute;
     left: 50%;
     bottom: 0;
-    width: 30%; /* Adjust this to control the "length" of the bottom border */
+    width: 50%; /* Adjust this to control the "length" of the bottom border */
     border-bottom: 1px solid grey;
     transform: translateX(-50%);
   }
-  
+
 .btn{
    position:relative;
    left:20rem;

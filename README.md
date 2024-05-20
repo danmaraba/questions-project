@@ -13,7 +13,7 @@ cd Reviews
 Use vscode to open it
 
 ## live link
-
+https://questions-project-jade.vercel.app/
 
 ## Technologies Used
 HTML
